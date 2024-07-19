@@ -1,0 +1,158 @@
+@font-face {
+    font-family: caption-america;
+    src: url(./fonts/AmericanCaptain-MdEY.otf);
+}
+@font-face {
+    font-family: Sda;
+    src: url(./fonts/SdAsteroidB612-wo3e2.otf);
+}
+@font-face {
+    font-family: Technic;
+    src: url(./fonts/TechnicBold\ Regular.ttf);
+}
+
+
+
+:root{
+  --bg:#000000;
+  --nav_height:10vw;
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+.nav{
+  width: 100vw;
+  height: var(--nav_height);
+  background: #939393;
+  position: absolute;
+  
+}
+
+.nav_slider{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: none2;
+  scale: 0;
+  opacity: 0;
+}
+.nav_slider_{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.nav_slider_text{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index:100;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 17vw;
+  gap: 4vh;
+  font-family: Sda;
+}
+.nav_slider_text_ .text{
+  overflow: hidden;
+}
+
+.nav_slider_text_ h1{
+  font-size: 5rem;
+  color: #BEBEBE;
+  overflow: hidden;
+  font-weight: 1000000;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  
+    /* transform: skewY(66deg); */
+transform-origin: left center;
+opacity: 1;
+
+}
+
+.nav_slider_text_ h1:hover{
+  transform: skew(0deg);
+  transition-duration: 1s;
+}
+
+
+
+
+.social_icon{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: #B8B8B8;
+  gap: 1vh;
+}
+
+.social_icon h2{
+  font-size: 3vw;
+  font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.social_icon .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.social_icon .link> h3{
+    font-size: 0.5vw;
+  font-weight: 500;
+    text-transform: uppercase;
+display: flex;
+gap: 1vw;
+align-items: center;
+justify-content: center;
+font-family: caption-america;
+}
+
+
+
+
+.nav_slider_lins{
+  width: 100%;
+  height: 100%;
+  display: flex;
+ align-content: space-between;
+}
+.line{
+  width: 50%;
+  height: 100%;
+  background: #000000;
+    transform: translateY(100vh);
+
+}
+
+
+
+
+
+
+
+
+.two_line{
+  position: absolute;
+  z-index:55555 ;
+}
+
+
+
